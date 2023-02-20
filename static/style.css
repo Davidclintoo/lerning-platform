@@ -1,0 +1,249 @@
+:root {
+    --mainColor: #eaeaea;
+    --secondaryColor: #fff;
+    --mainText: black;
+    --secondaryText: #4b5156;
+    --borderColor: #c1c1c1;
+    --themeDotBorder:#24292e;
+    --previewGb:rgb(251, 249, 243, 0.8);
+    --previewShadow:#f0ead6 ;
+    --btnColor:black;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body*{
+    transition:0.3s ;
+}
+.main{
+    background-color:var(--borderColor);
+}
+.top{
+    position: sticky;
+    top: 0;
+    z-index: 15px;
+}
+.card-title{
+    color:rgb(33, 250, 33) ;
+    font-weight: bold;
+}
+
+#student_platform{
+    background-color: white;
+}
+#graduate_platform{
+    background-color:white;
+}
+
+h2{
+    text-align: center;
+}
+
+
+/* home page */
+
+
+#left{
+    background-image: url(./images/background\ image.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 10%;
+    margin-bottom:0% ;
+}
+
+#home{
+    margin-left: 0;
+}
+
+/* form */
+#form{
+    display: block;
+    max-width:500px ;
+    background-color:var(--borderColor) ;
+    border-radius:5px ;
+    margin: 0 auto;
+    margin-bottom:50px ;
+    padding:15px ;
+    border:2px solid  var(--borderColor);
+    border-color:none ;
+    margin: auto;
+
+}
+#submit_btn{color: #fff;
+    margin-top:10px ;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    border:2px solid var(--borderColor) ;
+    border-radius:5px ;
+    background-color:var(--btnColor) ;
+
+}
+
+.text_input{
+    width: 100%;
+    background-color:var(--mainColor) ;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    border-radius: 5px;
+    font-size:15px ;
+    border:2px solid var(--borderColor) ;
+}
+
+#form label{
+    line-height:2.8em ;
+}
+
+#form textarea{
+    min-height:100px ;
+    font-size:14px ;
+}
+
+/* student platform */
+#main-heading{
+    margin-top:5% ; 
+}
+
+#sub-sub-heading{
+    margin-top:5% ;
+}
+
+#card1 #card2 #card3 #card4 #card5 #card6{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom:0% ;
+    height:200px ;
+}
+#card1{
+    background-image: url(/static/images/software\ image.jpg);
+    height:160px ; 
+}
+#card2{
+    background-image: url(/static/images/machine_learning.jpg);
+    height:160px ;
+}
+#card3{
+    background-image: url(/static/images/artificial\ intelligence.jpg);
+    height:160px ;
+}
+#card4{
+    background-image: url(/static/images/mechanical\ images.jpg );
+    height:160px ;
+    
+}
+#card5{
+    background-image: url(/static/images/software-mechanical.jpg);
+    height:160px ;
+}
+#card6{
+    background-image: url(/static/images/project\ image.jpg );
+    height:160px ;    
+    }
+
+.fa{
+    color: var(--themeDotBorder);
+   
+    border-radius: 5px;
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+.fa-user{
+  position: absolute;
+  color: aqua;
+}
+#card-left{
+    height:500px ;
+}
+#card-right{
+    height:500px ; 
+}
+
+/* software pages */
+/* navbar section */
+#nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 15px;
+}
+
+.navbar {
+    background-color: var(--borderColor);
+}
+
+.navbar a {
+    color: white;
+}
+
+
+
+.navbar-nav li {
+    padding: 0 12px;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    transition: 0.2s;
+}
+
+.navbar-nav li a:hover {
+    background-color: rgb(24, 78, 22) !important;
+    z-index: 2px;
+}
+/* end of navbar */
+
+
+/* html styling */
+.navbar-sidebar{
+    background-color: lightgray;
+    width:200px ;
+    position: sticky;
+    top: 0;
+    margin-left:0 ;
+    
+}
+
+#leftmenuinner{
+ overflow-y: scroll;
+ 
+ 
+}
+
+#sidenav{
+    position: sticky;
+    margin-left: 0%;
+    top:0 ;
+
+}
+#leftmenuinnerinner{
+    padding-left:10px ;
+    color: #4b5156;
+    z-index: -20px;
+
+}
+#leftmenuinnerinner a{
+    color: #4b5156;
+    display: block;
+    text-decoration: none;
+    
+}
+#leftmenuinnerinner a:hover{
+    background-color: slategrey;
+}
+
+
+
+.w3-main{
+    margin-top: 0;
+}
